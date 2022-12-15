@@ -8,3 +8,7 @@ walkthrough:  https://drive.google.com/file/d/1kHQiNqrxjufwmHuXTiL2JAJ2cUPAl3zm/
 repo: https://github.com/davidherring1998/E-commerce
 
 Screenshots: 
+
+<img width="1512" alt="Screenshot 2022-12-15 at 5 52 13 PM" src="https://user-images.githubusercontent.com/106282330/207990829-bc254527-969a-4f3f-87f5-3566e04f79e2.png">
+<img width="1512" alt="Screenshot 2022-12-15 at 5 52 04 PM" src="https://user-images.githubusercontent.com/106282330/207990832-887063e0-45f6-4e93-80a9-9ab7ab56f50f.png">
+<img width="1512" alt="Screenshot 2022-12-15 at 5 51 57 PM" src="https://user-images.githubusercontent.com/106282330/207990835-76a72ed4-0b06-4f68-88c4-e8f389c6b348.png">
