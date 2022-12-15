@@ -28,22 +28,23 @@ router.post('/:name', async (req, res) => {
   .catch((err) => res.status(500).json(err));
 });
 
-router.put('/:id', async (req, res) => {
-  const update = await Category.update(req.body, {
+router.put('/:id/:name', async (req, res) => {
+  const update = await Category.update({category_name: req.params.name}, {
     where: {id: req.params.id}
-  })
+  }, 
+  )
   .then((update) => res.send('{Category name updated.}'))
   .catch((err) => res.status(500).json)
 });
 
-router.delete('/:name', async (req, res) => {
-  const deleteCategory = await Category.destroy({
+router.delete('/:id', async (req, res) => {
+  const deleteCategory = await Product.destroy({
     where: {
-      category_name: req.params.name
+      id: req.params.id,
     },
     include: [{model: Product}]
   })
-  .then((deleteCategory) => res.send('{Category has been deleted.}'))
+  .then((deleteCategory) => res.send("{Category's products has been deleted.}"))
   .catch((err) => res.status(500).json(err));
 });
 

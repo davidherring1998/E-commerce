@@ -25,7 +25,7 @@ router.post('/:name', async (req, res) => {
   .then((create) => res.send('{Tag has been added.}'))
   .catch((err) => res.status(500).json(err));
 });
-
+// 2/
 router.put('/:id/:name', async (req, res) => {
   const update = await Tag.update({tagName: req.params.name}, {
     where: {id: req.params.id}
